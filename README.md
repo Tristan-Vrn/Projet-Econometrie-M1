@@ -1,4 +1,4 @@
-# Projet-Econometrie-M1
+# Projet Séries temporelles (M1)
 Le projet devra traiter une question économique. Vous pourrez vous inspirer des cours de macroéconomie, de finance,
 d’économie du développement, de relations monétaires internationales, de commerce international.... Vous indiquerez les
 résultats attendus et les comparerez aux résultats obtenus. La notation du projet prendra en compte l’effort d’interprétation
