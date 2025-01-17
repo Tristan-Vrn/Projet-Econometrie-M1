@@ -1,28 +1,19 @@
 # Projet Séries temporelles (M1)
-Le projet devra traiter une question économique. Vous pourrez vous inspirer des cours de macroéconomie, de finance,
-d’économie du développement, de relations monétaires internationales, de commerce international.... Vous indiquerez les
-résultats attendus et les comparerez aux résultats obtenus. La notation du projet prendra en compte l’effort d’interprétation
-des résultats.
+Ce projet a été réalisé dans le cadre du cours "Econométrie II" du M1 272. L'objectif de celui-ci était d'appliquer la théorie vue en cours sur deux séries temporelles dont nous suspections un lien économique. Ici, les deux séries choisies sont le taux de chômage en et le taux de croissance des crédits accordés aux entreprises non financières (*TCC*).
+
 ### Modélisation univariée
-1. Choisissez deux séries temporelles au moins en motivant ce choix. Les séries doivent être disponibles pour la même
-période et la même fréquence d’observation (annuelle, trimestrielle, mensuelle, hebdomadaire ou quotidienne). La
-période d’observation, la fréquence, les sources des données doivent être reportées. Un minimum de 40 observa-
-tions environ serait souhaitable pour obtenir des estimations suffisamment précises.
-Il est demandé de choisir des séries corrigées des variations saisonnières (CVS) pour les variables macroéconomiques.
-2. Faites et commentez les représentations graphiques et les autocorrélogrammes simples et partiels des séries.
-3. Appliquez la stratégie de test de racine unitaire à chaque série et indiquez la méthode de stationnarisation appropriée
-pour chacune d’elle.
-4. Pour l’une des séries, cherchez le modèle ARMA satisfaisant les conditions de validité.
-5. Calculez les prévisions de la série modélisée sur les horizons de 1 à 3 en détaillant la méthode de calcul. Si néces-
-saire, calculez les prévisions de la série initiale non stationnarisée pour les horizons 1 à 3.
+1. Présentation des séries temporelles
+2. Mise en place des représentations graphiques et des **autocorrélogrammes simples et partiels** des séries
+3. Application de la stratégie de **test de racine unitaire (Dickey-Fuller)** à chaque série et indication la méthode de stationnarisation appropriée
+pour chacune d’elle
+4. Détermination du **modèle ARMA optimal** pour la série *TCC* 
+5. Calcul des **prévisions** de la série modélisée sur les horizons de 1 à 3 puis sur la série initiale non stationnarisée
 
 ### Modélisation multivariée
-6. Estimez le modèle VAR avec le nombre de retards optimal. La composante déterministe de ce VAR devra être
-cohérente avec les conclusions de la question 4. Commentez les résultats des estimations.
-7. Déterminez les relations de causalité entre les variables de Xt et commentez les résultats obtenus.
-8. Effectuez et commentez une analyse impulsion-réponse des chocs sur les différentes variables par :
+6. Estimation de **modèle VAR** avec le nombre de retards optimal et commentaire des estimations
+7. Détermination des relations de causalité entre les variables avec **le test de Granger** et commentaire des résultats obtenus
+8. Implémentation d'une **analyse impulsion-réponse des chocs** sur les différentes variables par :
 - la methode des VAR
 - la méthode des projections locales
-Vous justifierez votre choix de l’ordre des variables dans la décomposition de Choleski.
-9. Faites le test de cointégration de Johansen si les séries initiales sont intégrées d’ordre 1. Indiquez si les résultats du
-test valident le modèle VAR. Estimez un modèle alternatif si vous le jugez nécessaire.
+avec justification du choix de l’ordre des variables dans la décomposition de Choleski
+9. **Test de cointégration** de Johansen 
